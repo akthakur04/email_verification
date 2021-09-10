@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-ie8%xnkg6hro_7h%@tu4#n=v=1tvn5xk&^l5io&hep$ezz84it
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -140,5 +140,5 @@ REST_FRAMEWORK = {
 EMAIL_USE_TLS=True
 EMAIL_HOST='smtp.gmail.com'
 EMAIL_PORT=587
-EMAIL_HOST_USER='akshay11042000@gmail.com'
-EMAIL_HOST_PASSWORD='Agentat12@'
+EMAIL_HOST_USER='testmailapi04@gmail.com'
+EMAIL_HOST_PASSWORD='ApiTestcheck1'
